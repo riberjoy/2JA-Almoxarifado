@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gui;
+package gui.EsboçoPaineis;
 
 /**
  *
@@ -30,7 +30,7 @@ public class ConsultaEstoque extends javax.swing.JPanel {
         jTextField1 = new javax.swing.JTextField();
         Buscar = new javax.swing.JButton();
         labelTipoItem = new javax.swing.JLabel();
-        ListaItens = new javax.swing.JComboBox<>();
+        ListaItens = new javax.swing.JComboBox<String>();
         labelNome = new javax.swing.JLabel();
         scroll = new javax.swing.JScrollPane();
         tabela = new javax.swing.JTable();
@@ -48,7 +48,7 @@ public class ConsultaEstoque extends javax.swing.JPanel {
         labelTipoItem.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         labelTipoItem.setText("Tipo de Item");
 
-        ListaItens.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        ListaItens.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         labelNome.setText("Nome:");
 
